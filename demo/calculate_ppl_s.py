@@ -7,7 +7,6 @@ import numpy as np
 import gc
 import os
 
-# 设置更激进的内存管理
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
 def clean_memory():
@@ -19,7 +18,6 @@ def clean_memory():
 model_name = '/root/autodl-tmp/Qwen2.5-0.5B-Instruct'
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# 使用fp16减少显存占用
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     torch_dtype='auto',
