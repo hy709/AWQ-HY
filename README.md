@@ -17,7 +17,7 @@ pip install torch>=2.0.0 transformers>=4.30.0
 ```
 
 ## 待定
-- demo: 基于 awq-h 量化的 qwen2.5-0.5b的实例
+- demo: 基于 awq-h 量化的 qwen2.5-0.5b的实例, 并且在 wikitext-2-raw-v1 数据集上的 PPL 比未使用 awq-h 模型低 0.0003
 - awq-h: 预计适配更多的模型以及支持自定义的数据集
 
 ## 引用
