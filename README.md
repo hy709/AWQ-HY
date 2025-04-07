@@ -16,7 +16,7 @@
 pip install torch>=2.0.0 transformers>=4.30.0 
 ```
 
-###待定
+## 待定
 demo: 基于 awq-h 量化的 qwen2.5-0.5b的实例
 awq-h: 预计适配更多的模型以及支持自定义的数据集
 
